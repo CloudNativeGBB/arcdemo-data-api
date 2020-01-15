@@ -1,3 +1,4 @@
+// adding some comments here because
 const applicationInsights = require('applicationinsights');
 const async = require('async');
 const dayjs = require('dayjs');
