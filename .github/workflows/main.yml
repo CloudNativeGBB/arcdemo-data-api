@@ -1,4 +1,4 @@
-name: Dockerk Build for Master
+name: Docker Build for Master
 on: [push]
 jobs:
   build:
@@ -8,7 +8,8 @@ jobs:
     - name: Publish to Registry
       uses: HurricanKai/Publish-Docker-Github-Action@master
       with:
-        name: docker.pkg.github.com/cloudnativegbb/arc-k8s-demos/data-api
+        name: cloudnativegbb/arc-k8s-demos/data-api
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         dockerfile: Dockerfile
+        registry: docker.pkg.github.com
