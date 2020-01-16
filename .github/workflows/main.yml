@@ -19,8 +19,8 @@ jobs:
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
         name: msftgbb/data-api
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_PASSWORD }}
         dockerfile: Dockerfile
         registry: docker.io
         snapshot: true
