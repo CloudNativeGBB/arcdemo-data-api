@@ -255,5 +255,3 @@ function handleError(message) {
 }
 
 module.exports = router;
-
-// Adding some text for a commit.
