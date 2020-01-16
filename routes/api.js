@@ -255,3 +255,5 @@ function handleError(message) {
 }
 
 module.exports = router;
+
+// Added comment back in.
