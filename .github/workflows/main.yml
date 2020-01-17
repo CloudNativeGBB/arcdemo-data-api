@@ -24,4 +24,4 @@ jobs:
         dockerfile: Dockerfile
         registry: docker.io
         snapshot: true
-    - uses: actions/mod-com-pu-pr@master
+    - uses: cloudnativegbb/pr-action-gen/mod-com-pu-pr@master
