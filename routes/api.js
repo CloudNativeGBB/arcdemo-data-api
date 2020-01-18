@@ -1,4 +1,4 @@
-// adding some comments here because
+// new test
 const applicationInsights = require('applicationinsights');
 const async = require('async');
 const dayjs = require('dayjs');
